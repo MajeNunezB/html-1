@@ -1,1 +1,53 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration </h1>
+
+    <form>
+        <label for="Username">Username</label>
+        <input type="text" required/>
+        <label for="password">Password</label>
+        <input type="password" required/>
+        <label for="email" >Email</label>
+        <input type="email" required/>
+    </form>
+
+    <h2>Which taxi do you  require?</h2>
+    <form>
+        <label for="car"><input type="radio"/>Car</label>
+        <label for="van"> <input type="radio"/>Van</label>
+        <label for="Tuk Tuk"><input type="radio"/>Tuk Tuk</label>
+    </form>
+    <h2>Choose your extras</h2>
+    <form>
+        <label for="baby"> <input type="checkbox"/>Baby seat</label>
+        <label for="wheelchair"> <input type="checkbox"/>Wheelchair seat</label>
+        <label for="privacy"> <input type="checkbox"/>Privacy windows</label>
+    </form>
+
+    <h2>Where would you like us to pick you up?</h2>
+    <label for="pickup">Pickup Location</label>
+    <select name="Select"> 
+        <option>select one</option>
+        <option>Hotel</option>
+        <option>Home</option>
+        <option>Work</option>
+    </select>
+    
+    <h2>Additional Instructions</h2>
+
+    <form>
+        <label for="textarea">Special</label>
+        <textarea>provide spacial instructions here </textarea>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
